@@ -15,12 +15,12 @@ WORKDIR /app
 
 # pip رو آپدیت کن و Rasa رو نصب کن (آخرین نسخه پایدار: 3.6.21)
 RUN pip install --upgrade pip
-RUN pip install rasa==3.6.21
+RUN pip install "rasa[transformers]==3.6.21"  # Updated for Transformers support
 #RUN pip install spacy
 #RUN python -m spacy download fa_core_news_sm
 RUN pip install hazm # اضافه شده برای پارسی
 #RUN pip install git+https://github.com/RasaHQ/rasa-nlu-examples.git
-RUN pip install transformers
+#RUN pip install transformers
 
 # فایل‌های پروژه رو کپی کن (بعداً اضافه می‌شه)
 COPY . /app

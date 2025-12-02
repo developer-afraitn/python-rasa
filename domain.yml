@@ -13,6 +13,7 @@ responses:
   utter_greet:
   - text: "Hey! How are you?"
   - text: "سلام! حالت چطوره؟"
+  - text: "سلام! خوبی؟"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -30,10 +31,19 @@ responses:
   utter_goodbye:
   - text: "Bye"
   - text: "خداحافظ"
+  - text: "بدرود"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
   - text: "من تورگردان هستم. ربات جستجو و رزرواسیون گردشگری"
+
+  utter_please_rephrase:
+    - text: "متاسفم، متوجه نشدم. می‌تونی واضح‌تر بگی؟"
+    - text: "Sorry, I didn't understand. Can you rephrase?"
+
+  utter_default:
+    - text: "متاسفم، متوجه نشدم. لطفاً دوباره بگید."
+    - text: "Sorry, I didn't understand that. Please rephrase."
 
 session_config:
   session_expiration_time: 60
