@@ -1,0 +1,50 @@
+# کش پایتون و فایل‌های کامپایل‌شده
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# محیط مجازی پایتون
+.venv/
+venv/
+ENV/
+
+# مدل‌های Rasa (بزرگ و قابل بازسازی)
+models/
+*.tar.gz  # مدل‌های فشرده
+
+# کش Rasa
+.rasa/
+
+# لاگ‌ها و فایل‌های موقتی
+*.log
+*.tmp
+*.swp
+.DS_Store  # برای macOS
+
+# فایل‌های حساس و محلی
+.env
+credentials.yml  # اگر حاوی داده‌های واقعی باشه؛ اگر placeholder باشه، share کن
+endpoints.yml  # اگر حساس باشه
+
+# IDEها و ویرایشگرها
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+*.sublime*
+
+# تست‌ها و پوشش کد (اگر لازم نباشه)
+.coverage
+htmlcov/
+
+# Docker (اگر پروژه Docker-based باشه)
+.dockerignore  # خودش ignore نمی‌شه، اما اگر لازم باشه
+volumes/  # حجم‌های Docker
+db/  # اگر دیتابیس محلی داری
+*.db
+
+# فایل‌های بزرگ یا غیرضروری دیگر
+actions/__pycache__/
+tests/__pycache__/
+data/*.tmp
