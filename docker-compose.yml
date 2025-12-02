@@ -5,6 +5,8 @@ services:
       - "5005:5005"
     volumes:
       - .:/app
+    environment:
+      - SQLALCHEMY_SILENCE_UBER_WARNING=1  # این هشدار رو ساکت می‌کنه
     command:
       - run
       - --enable-api
