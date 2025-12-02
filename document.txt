@@ -1,0 +1,4 @@
+docker compose down -v کانتینرها رو خاموش کن
+docker compose build  ایمیج رو دوباره بیلد کن (اختیاری، اگر تغییری دادی)
+docker compose run --rm rasa init --no-prompt   پروژه رو دوباره اولیه‌سازی کن (اگر فایل‌ها پاک شدن)
+docker compose up -d   اجرا کن

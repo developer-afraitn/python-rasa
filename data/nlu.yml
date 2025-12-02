@@ -16,6 +16,9 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - سلام
+    - درود
+    - سلام خوبی؟
 
 - intent: goodbye
   examples: |
@@ -29,6 +32,8 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - خداحافظ
+    - بدرود
 
 - intent: affirm
   examples: |
@@ -38,6 +43,8 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - بله
+    - درست
 
 - intent: deny
   examples: |
@@ -48,6 +55,8 @@ nlu:
     - don't like that
     - no way
     - not really
+    - نه
+    - خیر
 
 - intent: mood_great
   examples: |
@@ -65,6 +74,8 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - عالی
+    - خیلی خوبم
 
 - intent: mood_unhappy
   examples: |
@@ -82,6 +93,8 @@ nlu:
     - extremly sad
     - so saad
     - so sad
+    - ناراحتم
+    - غمگینم
 
 - intent: bot_challenge
   examples: |
@@ -89,3 +102,5 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - آیا ربات هستی؟
+    - آیا انسانی؟
